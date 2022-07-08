@@ -1,8 +1,10 @@
 #pragma once
-
 #include "ofMain.h"
+#include "board.h"
 
 class ofApp : public ofBaseApp{
+	private:
+	Board* gameBoard;
 
 	public:
 		void setup();
